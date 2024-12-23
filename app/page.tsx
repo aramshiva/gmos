@@ -116,6 +116,7 @@ What? So why are they bad?`,
     description: `Gene Flow is when a GMO plant's genes get unintentionally transferred to another plant!
 * This can happen through pollination, seeds or even roots.
 * This can cause genetic modification to contaminate other plants
+
 **How do we solve this?**
 * We can seperate crop fields far apart from each other to prevent two crops from transferring genes.`,
     component: <></>,
