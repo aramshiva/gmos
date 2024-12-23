@@ -113,7 +113,11 @@ What? So why are they bad?`,
   },
   {
     title: "Gene Flow",
-    description: "",
+    description: `Gene Flow is when a GMO plant's genes get unintentionally transferred to another plant!
+* This can happen through pollination, seeds or even roots.
+* This can cause genetic modification to contaminate other plants
+**How do we solve this?**
+* We can seperate crop fields far apart from each other to prevent two crops from transferring genes.`,
     component: <></>,
   },
   {
@@ -134,7 +138,9 @@ What? So why are they bad?`,
   {
     title: "Public Opinion",
     description: `Public's opinion on GMOs are mixed.
-* A survey conducted by Pew Research Center in 2016 (see left) found that 27% of americans buy Non-GMO products`,
+* A survey conducted by Pew Research Center in 2016 (see left) found that 27% of americans buy Non-GMO products
+* This means that people **really** care about what they are eating!
+* So labeling is a big deal for them. They want to know if they are eating a GM product or not.`,
     component: <PublicOpinion />,
   },
   {

@@ -1,28 +1,21 @@
-"use client"
+"use client";
 
-import { TrendingUp } from "lucide-react"
-import { Pie, PieChart } from "recharts"
+import { Pie, PieChart } from "recharts";
 
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@/components/ui/chart"
+} from "@/components/ui/chart";
 const chartData = [
-    { surveyanswer: "several", visitors: 27, fill: "var(--color-several)" },
-    { surveyanswer: "once", visitors: 17, fill: "var(--color-once)" },
-    { surveyanswer: "never", visitors: 28, fill: "var(--color-never)" },
-    { surveyanswer: "notsure", visitors: 27, fill: "var(--color-notsure)" },
-    { surveyanswer: "none", visitors: 1, fill: "var(--color-none)" },
-]
+  { surveyanswer: "several", visitors: 27, fill: "var(--color-several)" },
+  { surveyanswer: "once", visitors: 17, fill: "var(--color-once)" },
+  { surveyanswer: "never", visitors: 28, fill: "var(--color-never)" },
+  { surveyanswer: "notsure", visitors: 27, fill: "var(--color-notsure)" },
+  { surveyanswer: "none", visitors: 1, fill: "var(--color-none)" },
+];
 
 const chartConfig = {
   visitors: {
@@ -48,7 +41,7 @@ const chartConfig = {
     label: "No Answer",
     color: "hsl(var(--chart-5))",
   },
-} satisfies ChartConfig
+} satisfies ChartConfig;
 
 export function PublicOpinion() {
   return (
@@ -75,14 +68,6 @@ export function PublicOpinion() {
           </PieChart>
         </ChartContainer>
       </CardContent>
-      <CardFooter className="flex-col gap-2 text-sm">
-        <div className="flex items-center gap-2 font-medium leading-none">
-          Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
-        </div>
-        <div className="leading-none text-muted-foreground">
-          Showing total visitors for the last 6 months
-        </div>
-      </CardFooter>
     </Card>
-  )
+  );
 }
