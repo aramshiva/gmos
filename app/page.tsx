@@ -10,6 +10,8 @@ import { Progress } from "@/components/ui/progress";
 import Image from "next/image";
 import Labelling from "@/components/labelling";
 import { PublicOpinion } from "@/components/publicopinion";
+import DNA from "@/components/dna";
+import Insulin from "@/components/insulin";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -85,7 +87,7 @@ const slides = [
 - They can help crops become more flavorful
 
 **So why have you been told as a kid that they are bad?**`,
-    component: <></>,
+    component: <Insulin />,
   },
   {
     title: "Controversy",
@@ -126,14 +128,14 @@ What? So why are they bad?`,
 
 **How do we solve this?**
 * We can seperate crop fields far apart from each other to prevent two crops from transferring genes.`,
-    component: <></>,
+    component: <DNA />,
   },
   {
     title: "Allerigies",
     description: `Another big concern is that GMOs can cause allergies.
 * This is actually **false**! According to the FDA, GMO foods are no more likely to cause allergies than non-GMOs.
 * GMOs are tested for allergens before they can be sold!
-* So, actually GMOs don't cause allergies! `,
+* So, actually GMOs don't cause allergies!`,
     component: <></>,
   },
   {
