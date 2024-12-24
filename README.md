@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/7f804429-844d-4653-b3aa-d68da7ac1bc9)
+
 # GMOs Explained!
 
 ## About 
