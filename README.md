@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GMOs Explained!
 
-## Getting Started
+## About 
 
-First, run the development server:
+GMOs Explained is an interactive lesson around GMOs, on the site you'll learn:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- What are GMOs?
+- How are they produced?
+- Should I be concerned
+- Play with interactive datasets and surveys around GMOs.
+- And More!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This site was made for a school project and was made in ~7 hours.
+It uses Next.js, Tailwind CSS, and React as the frameworks for building the site.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The entire site is based off of two main sections: 
 
-## Learn More
+- The Text (left side)
+    - This will explain that part of the lesson
+- The componnet (right side)
+    - This will be an react component, often interactive that talks about the text and has cool visuals.
 
-To learn more about Next.js, take a look at the following resources:
+To run in development:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Clone the repository.
+- Install Bun
+- Run `bun install`
+- Spin up a development server on `bun run dev`!
+- Feel free to contribute to the code!
