@@ -10,8 +10,10 @@ import { Progress } from "@/components/ui/progress";
 import Image from "next/image";
 import Labelling from "@/components/labelling";
 import { PublicOpinion } from "@/components/publicopinion";
+import Allergies from "@/components/allergies";
 import DNA from "@/components/dna";
 import Insulin from "@/components/insulin";
+import { Controversy } from "@/components/controversy";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -100,7 +102,7 @@ Some controversies include:
 * Should they be labeled?
 
 ***So let's look into each one of these controversies and see if they are an geninue concern***`,
-    component: <></>,
+    component: <Controversy />,
   },
   {
     title: "Safety for Consumption",
@@ -136,7 +138,7 @@ What? So why are they bad?`,
 * This is actually **false**! According to the FDA, GMO foods are no more likely to cause allergies than non-GMOs.
 * GMOs are tested for allergens before they can be sold!
 * So, actually GMOs don't cause allergies!`,
-    component: <></>,
+    component: <Allergies />,
   },
   {
     title: "Labeling",
