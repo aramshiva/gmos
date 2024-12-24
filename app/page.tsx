@@ -193,11 +193,19 @@ export default function Page() {
             <div className="pb-5">
               <Markdown>{slides[currentSlide].description}</Markdown>
             </div>
+            <div>
+            {currentSlide !== 0 ? (
+                <Button onClick={() => setCurrentSlide(prev => prev - 1)} className="w-20 bg-white text-slate-700 border border-slate-700 hover:bg-slate-300">
+                Back
+                </Button>
+            ) : null}
+            <span className="px-2"/>
             {currentSlide !== slides.length - 1 && (
               <Button onClick={nextSlide} className="w-20">
                 {currentSlide === 0 ? "Start" : "Next"}
               </Button>
             )}
+            </div>
           </div>
           <div className="flex-1 bg-slate-50 rounded-xl p-5 flex justify-center items-center">
             {slides[currentSlide].component}
