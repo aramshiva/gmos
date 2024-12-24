@@ -14,6 +14,7 @@ import Allergies from "@/components/allergies";
 import DNA from "@/components/dna";
 import Insulin from "@/components/insulin";
 import { Controversy } from "@/components/controversy";
+import Safety from "@/components/safety";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -112,7 +113,7 @@ Some controversies include:
 * The World Health Organization has also stated that GM foods are no more risky than conventional foods.
 
 What? So why are they bad?`,
-    component: <></>,
+    component: <Safety />,
   },
   {
     title: "Environmental Impact",
