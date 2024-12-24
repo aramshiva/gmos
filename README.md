@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/7f804429-844d-4653-b3aa-d68da7ac1bc9)
 
 # GMOs Explained!
-
+[demo](https://gmos.aram.sh) | [source](https://github.com/aramshiva/gmos) | [creator](https://aram.sh)
 ## About 
 
 GMOs Explained is an interactive lesson around GMOs, on the site you'll learn:
