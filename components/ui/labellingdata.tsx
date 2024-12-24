@@ -66,7 +66,7 @@ export function Chart() {
     <Card>
       <CardHeader>
         <CardDescription>
-          Showing unique Genetically modified crops in 2024
+          Showing unique Genetically modified crops over ~40 years
         </CardDescription>
       </CardHeader>
       <CardContent>

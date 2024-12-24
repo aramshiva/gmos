@@ -16,7 +16,14 @@ const inter = Inter({ subsets: ["latin"] });
 const slides = [
   {
     title: "GMOs Explained",
-    description: "An interactive lesson on genetically modified organisms",
+    description: `Welcome! This is an interactive website on genetically modified organisms. In this website you'll:
+* Learn What GMOs Are.
+* Learn the benefits of GMOs.
+* Learn the controversies around GMOs.
+* Play around with some interactive datasets.
+* And more!
+
+**Press the Start button to begin!**`,
     component: (
       <Image
         src="/logo.png"
@@ -28,7 +35,7 @@ const slides = [
   },
   {
     title: "Introduction",
-    description: `* Humans have been genetically modifying plants and animals for thousands of years! They have been doing this through **natural selection and selective breeding**
+    description: `* Humans have been modifying plants and animals for thousands of years! They have been doing this through **natural selection and selective breeding**
     * Natural Selction is when animals or plants choose other organisms that are better and over time, creating a better species
     * Selective Breeding is where humans choose two organisms with desirable traits and breed them together.
       * We have been doing selective breeding since 8000 BCE`,
@@ -123,7 +130,10 @@ What? So why are they bad?`,
   },
   {
     title: "Allerigies",
-    description: "",
+    description: `Another big concern is that GMOs can cause allergies.
+* This is actually **false**! According to the FDA, GMO foods are no more likely to cause allergies than non-GMOs.
+* GMOs are tested for allergens before they can be sold!
+* So, actually GMOs don't cause allergies! `,
     component: <></>,
   },
   {
