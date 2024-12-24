@@ -13,7 +13,7 @@ GMOs Explained is an interactive lesson around GMOs, on the site you'll learn:
 ## Development
 
 This site was made for a school project and was made in ~7 hours.
-It uses Next.js, Tailwind CSS, and React as the frameworks for building the site.
+It uses Next.js App Router, Tailwind CSS, and React as the frameworks for building the site.
 
 The entire site is based off of two main sections: 
 
