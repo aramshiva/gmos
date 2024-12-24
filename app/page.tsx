@@ -173,29 +173,34 @@ export default function Page() {
   };
 
   return (
-    <div className={`p-20 ${inter.className}`}>
-      <div className="flex gap-4">
-        <div className="prose flex-1 rounded-xl p-5 h-24 md:h-48 lg:h-[35rem] flex flex-col justify-center relative">
-          <Progress
-            value={(currentSlide / (slides.length - 1)) * 100}
-            className="w-24 h-1"
-          />
-          <h1 className="font-bold text-xl pt-5">
-            {slides[currentSlide].title}
-          </h1>
-          <div className="pb-5">
-            <Markdown>{slides[currentSlide].description}</Markdown>
+    <>
+      <div className={`md:hidden flex items-center justify-center h-screen text-center ${inter.className}`}>
+        GMOs Explained! is not optimized for mobile. Please view on a desktop.
+      </div>
+      <div className={`hidden md:block p-20 ${inter.className}`}>
+        <div className="flex gap-4">
+          <div className="prose flex-1 rounded-xl p-5 h-24 md:h-48 lg:h-[35rem] flex flex-col justify-center relative">
+            <Progress
+              value={(currentSlide / (slides.length - 1)) * 100}
+              className="w-24 h-1"
+            />
+            <h1 className="font-bold text-xl pt-5">
+              {slides[currentSlide].title}
+            </h1>
+            <div className="pb-5">
+              <Markdown>{slides[currentSlide].description}</Markdown>
+            </div>
+            {currentSlide !== slides.length - 1 && (
+              <Button onClick={nextSlide} className="w-20">
+                {currentSlide === 0 ? "Start" : "Next"}
+              </Button>
+            )}
           </div>
-          {currentSlide !== slides.length - 1 && (
-            <Button onClick={nextSlide} className="w-20">
-              {currentSlide === 0 ? "Start" : "Next"}
-            </Button>
-          )}
-        </div>
-        <div className="flex-1 bg-slate-50 rounded-xl p-5 flex justify-center items-center">
-          {slides[currentSlide].component}
+          <div className="flex-1 bg-slate-50 rounded-xl p-5 flex justify-center items-center">
+            {slides[currentSlide].component}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
