@@ -178,7 +178,7 @@ export default function Page() {
   return (
     <>
       <div className={`md:hidden flex items-center justify-center h-screen text-center ${inter.className}`}>
-        GMOs Explained! is not optimized for mobile. Please view on a desktop.
+        GMOs Explained! is not optimized for mobile. Please view on a desktop. (sorry it{"'"}s inconvenient but I promise it{"'"}s worth it!)!
       </div>
       <div className={`hidden md:block p-20 ${inter.className}`}>
         <div className="flex gap-4">
